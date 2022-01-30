@@ -3,7 +3,6 @@ try:
 	import requests as rq 
 	from bs4 import BeautifulSoup as Bf
 except:
-	msg=" if u in linux run this command to download the lising library"
 	comm="pip3 install requests bs4"
 	print(msg)
 	print(comm)
